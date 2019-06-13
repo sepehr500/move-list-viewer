@@ -1,18 +1,16 @@
 import React from "react";
-import renderer from "react-test-renderer";
+import { mount } from "enzyme";
 import { MovieListCard } from "./MovieListCard";
 
 it("renders correctly", () => {
-  const tree = renderer
-    .create(
-      <MovieListCard
-        key={1}
-        title="Gone with the wind"
-        thumbnailPath="/asdf9n.jpg"
-        releaseDate="2016-08-04"
-        score={4}
-      />
-    )
-    .toJSON();
+  const tree = mount(
+    <MovieListCard
+      key={1}
+      title="Gone with the wind"
+      thumbnailPath="/asdf9n.jpg"
+      releaseDate="2016-08-04"
+      score={4}
+    />
+  );
   expect(tree).toMatchSnapshot();
 });

@@ -7,7 +7,7 @@ import {
   cleanup,
   waitForElement
 } from "@testing-library/react";
-import renderer from "react-test-renderer";
+import { mount } from "enzyme";
 import { MainPage } from "./index";
 import fakeResponse from "./fakeResponse.json";
 
@@ -30,9 +30,9 @@ it("renders loading correctly", async () => {
 });
 
 it("renders data correctly", async () => {
-  const tree = renderer.create(<MainPage />);
+  const tree = mount(<MainPage />);
   await flushPromises();
-  expect(tree.toJSON()).toMatchSnapshot();
+  expect(tree).toMatchSnapshot();
 });
 
 it("renders correct number of cards", async () => {
