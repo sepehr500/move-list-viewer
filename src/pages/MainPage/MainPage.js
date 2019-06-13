@@ -15,10 +15,13 @@ class MainPage extends Component {
   }
   render() {
     if (this.state.loading) {
-      return "Loading...";
+      return <div data-test-id="loading">Loading...</div>;
     }
     return (
-      <div className="mw8 flex justify-center flex-wrap center">
+      <div
+        data-testid="movie-list"
+        className="mw8 flex justify-center flex-wrap center"
+      >
         {this.state.movies.map(movie => (
           <MovieListCard
             key={movie.id}
