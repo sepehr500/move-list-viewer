@@ -2,7 +2,7 @@ import axios from "axios";
 import secrets from "../secrets.json";
 
 const generateBaseURL = (searchMethod, searchCategory) =>
-  `https://api.themoviedb.org/3/${searchMethod}/${searchCategory}?api_key=${secrets.movieApiKey}`;
+  `https://api.themoviedb.org/3/${searchMethod}/${searchCategory}?&language=en-US&api_key=${secrets.movieApiKey}`;
 
 const discoverBaseURL = generateBaseURL("discover", "movie");
 
@@ -15,4 +15,7 @@ const discover = {
   }
 };
 
-export { discover };
+const buildImageUrl = (imgHash, width = 185) =>
+  `http://image.tmdb.org/t/p/w${width}${imgHash}`;
+
+export { discover, buildImageUrl };
