@@ -35,7 +35,17 @@
   background: none;
   box-shadow: none;
   border-radius: -3px;
-  background-color: lightblue;
+  color: black;
+  background-color: #96ccff;
+  transition: 0.5s;
+}
+
+.Details-button:hover {
+  background-color: #4ca8ff;
+}
+
+.Details-button:focus {
+  background-color: #4ca8ff;
 }
 
 .Overlay {
@@ -55,6 +65,11 @@
   background-color: papayawhip;
   display: flex;
   background-color: white;
+  border-radius: 3%;
+}
+
+.Slow-transition {
+  transition: 0.5s;
 }
 
 @media only screen and (max-width: 1403px) {

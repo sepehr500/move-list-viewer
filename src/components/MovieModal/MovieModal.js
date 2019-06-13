@@ -4,10 +4,6 @@ import Rating from "react-rating";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 
-if (process.env.NODE_ENV !== "test") {
-  Modal.setAppElement("#root");
-}
-
 const MovieModal = ({
   title,
   thumbnailPath,
@@ -37,7 +33,7 @@ const MovieModal = ({
           data-testid="star"
           icon={faStar}
           size="3x"
-          className={`${isFavorite ? "gold" : "gray"} mb3`}
+          className={`${isFavorite ? "gold" : "gray"} mb3 Slow-transition`}
         />
         <div>
           <div className="mb3">Release date: {releaseDate}</div>
@@ -49,14 +45,14 @@ const MovieModal = ({
         <div>
           <button
             onClick={onFavorite}
-            className={`shadow-1 pb3 mb3 bg-light-blue black f3 w-100 br3 Details-button`}
+            className={`shadow-1 pb3 mb3 f3 w-100 br3 Details-button`}
           >
             {isFavorite ? "Unfavorite" : "Add to favorites"}
           </button>
           <button
             data-testid="closeButton"
             onClick={onClose}
-            className="shadow-1 pb3 bg-light-blue black f3 w-100 br3 Details-button"
+            className="shadow-1 pb3 f3 w-100 br3 Details-button"
           >
             close
           </button>
