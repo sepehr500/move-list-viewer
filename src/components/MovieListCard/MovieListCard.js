@@ -26,7 +26,7 @@ const MovieListCard = ({
     </div>
     <button
       onClick={onClick}
-      className="pb3 bg-light-blue black f3 w-100 br3 Details-button"
+      className="pb3 f3 w-100 br3 Details-button"
       value="details"
     >
       details
