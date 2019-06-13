@@ -72,6 +72,14 @@
   transition: 0.5s;
 }
 
+.react-rater-star.is-active {
+  color: gold;
+}
+
+.react-rater-star.is-active-half::before {
+  color: gold;
+}
+
 @media only screen and (max-width: 1403px) {
   .Modal {
     flex-direction: column;
