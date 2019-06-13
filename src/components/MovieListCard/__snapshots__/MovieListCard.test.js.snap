@@ -1,74 +1,103 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div
-  className="bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+<MovieListCard
+  releaseDate="2016-08-04"
+  score={4}
+  thumbnailPath="/asdf9n.jpg"
+  title="Gone with the wind"
 >
   <div
-    className="dib center"
-  >
-    <img
-      alt="Gone with the wind poster"
-      src="/asdf9n.jpg"
-    />
-  </div>
-  <div
-    className="tc"
-    style={
-      Object {
-        "height": "4rem",
-      }
-    }
+    className="bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
   >
     <div
-      className="pt3 ph2"
-      style={
-        Object {
-          "maxWidth": "200px",
-        }
-      }
+      className="dib center"
     >
-      <b>
-        Gone with the wind
-      </b>
+      <img
+        alt="Gone with the wind poster"
+        src="/asdf9n.jpg"
+      />
     </div>
-  </div>
-  <div
-    className="ph2 mv2"
-  >
     <div
-      className="mb1"
-    >
-      Release date: 
-      2016-08-04
-    </div>
-  </div>
-  <div
-    className="ph2 mv2"
-  >
-    <span
+      className="tc"
       style={
         Object {
-          "direction": "ltr",
-          "display": "inline-block",
+          "height": "4rem",
         }
       }
     >
-      <span
-        onClick={[Function]}
-        onMouseMove={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
+      <div
+        className="pt3 ph2"
         style={
           Object {
-            "cursor": "inherit",
-            "display": "inline-block",
-            "position": "relative",
+            "maxWidth": "200px",
           }
         }
       >
-        <span
-          style={
+        <b>
+          Gone with the wind
+        </b>
+      </div>
+    </div>
+    <div
+      className="ph2 mv2"
+    >
+      <div
+        className="mb1"
+      >
+        Release date: 
+        2016-08-04
+      </div>
+    </div>
+    <div
+      className="ph2 mv2"
+    >
+      <RatingAPILayer
+        direction="ltr"
+        emptySymbol={
+          Object {
+            "backgroundColor": "#ccc",
+            "border": "5px double white",
+            "borderRadius": "50%",
+            "display": "inline-block",
+            "height": 30,
+            "width": 30,
+          }
+        }
+        fractions={2}
+        fullSymbol={
+          Object {
+            "backgroundColor": "black",
+            "border": "5px double white",
+            "borderRadius": "50%",
+            "display": "inline-block",
+            "height": 30,
+            "width": 30,
+          }
+        }
+        initialRating={4}
+        onChange={[Function]}
+        onClick={[Function]}
+        onHover={[Function]}
+        placeholderSymbol={
+          Object {
+            "backgroundColor": "red",
+            "border": "5px double white",
+            "borderRadius": "50%",
+            "display": "inline-block",
+            "height": 30,
+            "width": 30,
+          }
+        }
+        quiet={false}
+        readonly={true}
+        start={0}
+        step={1}
+        stop={5}
+      >
+        <Rating
+          direction="ltr"
+          emptySymbol={
             Object {
               "backgroundColor": "#ccc",
               "border": "5px double white",
@@ -78,50 +107,10 @@ exports[`renders correctly 1`] = `
               "width": 30,
             }
           }
-        />
-        <span
-          style={
+          fractions={2}
+          fullSymbol={
             Object {
-              "display": "inline-block",
-              "left": 0,
-              "overflow": "hidden",
-              "position": "absolute",
-              "top": 0,
-              "width": "100%",
-            }
-          }
-        >
-          <span
-            style={
-              Object {
-                "backgroundColor": "black",
-                "border": "5px double white",
-                "borderRadius": "50%",
-                "display": "inline-block",
-                "height": 30,
-                "width": 30,
-              }
-            }
-          />
-        </span>
-      </span>
-      <span
-        onClick={[Function]}
-        onMouseMove={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        style={
-          Object {
-            "cursor": "inherit",
-            "display": "inline-block",
-            "position": "relative",
-          }
-        }
-      >
-        <span
-          style={
-            Object {
-              "backgroundColor": "#ccc",
+              "backgroundColor": "black",
               "border": "5px double white",
               "borderRadius": "50%",
               "display": "inline-block",
@@ -129,50 +118,11 @@ exports[`renders correctly 1`] = `
               "width": 30,
             }
           }
-        />
-        <span
-          style={
+          onClick={[Function]}
+          onHover={[Function]}
+          placeholderSymbol={
             Object {
-              "display": "inline-block",
-              "left": 0,
-              "overflow": "hidden",
-              "position": "absolute",
-              "top": 0,
-              "width": "100%",
-            }
-          }
-        >
-          <span
-            style={
-              Object {
-                "backgroundColor": "black",
-                "border": "5px double white",
-                "borderRadius": "50%",
-                "display": "inline-block",
-                "height": 30,
-                "width": 30,
-              }
-            }
-          />
-        </span>
-      </span>
-      <span
-        onClick={[Function]}
-        onMouseMove={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        style={
-          Object {
-            "cursor": "inherit",
-            "display": "inline-block",
-            "position": "relative",
-          }
-        }
-      >
-        <span
-          style={
-            Object {
-              "backgroundColor": "#ccc",
+              "backgroundColor": "red",
               "border": "5px double white",
               "borderRadius": "50%",
               "display": "inline-block",
@@ -180,142 +130,425 @@ exports[`renders correctly 1`] = `
               "width": 30,
             }
           }
-        />
-        <span
-          style={
-            Object {
-              "display": "inline-block",
-              "left": 0,
-              "overflow": "hidden",
-              "position": "absolute",
-              "top": 0,
-              "width": "100%",
-            }
-          }
+          placeholderValue={0}
+          quiet={false}
+          readonly={true}
+          totalSymbols={5}
+          value={4}
         >
           <span
             style={
               Object {
-                "backgroundColor": "black",
-                "border": "5px double white",
-                "borderRadius": "50%",
+                "direction": "ltr",
                 "display": "inline-block",
-                "height": 30,
-                "width": 30,
               }
             }
-          />
-        </span>
-      </span>
-      <span
-        onClick={[Function]}
-        onMouseMove={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        style={
-          Object {
-            "cursor": "inherit",
-            "display": "inline-block",
-            "position": "relative",
-          }
-        }
-      >
-        <span
-          style={
-            Object {
-              "backgroundColor": "#ccc",
-              "border": "5px double white",
-              "borderRadius": "50%",
-              "display": "inline-block",
-              "height": 30,
-              "width": 30,
-            }
-          }
-        />
-        <span
-          style={
-            Object {
-              "display": "inline-block",
-              "left": 0,
-              "overflow": "hidden",
-              "position": "absolute",
-              "top": 0,
-              "width": "100%",
-            }
-          }
-        >
-          <span
-            style={
-              Object {
-                "backgroundColor": "black",
-                "border": "5px double white",
-                "borderRadius": "50%",
-                "display": "inline-block",
-                "height": 30,
-                "width": 30,
+          >
+            <RatingSymbol
+              activeIcon={
+                Object {
+                  "backgroundColor": "black",
+                  "border": "5px double white",
+                  "borderRadius": "50%",
+                  "display": "inline-block",
+                  "height": 30,
+                  "width": 30,
+                }
               }
-            }
-          />
-        </span>
-      </span>
-      <span
-        onClick={[Function]}
-        onMouseMove={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        style={
-          Object {
-            "cursor": "inherit",
-            "display": "inline-block",
-            "position": "relative",
-          }
-        }
-      >
-        <span
-          style={
-            Object {
-              "backgroundColor": "#ccc",
-              "border": "5px double white",
-              "borderRadius": "50%",
-              "display": "inline-block",
-              "height": 30,
-              "width": 30,
-            }
-          }
-        />
-        <span
-          style={
-            Object {
-              "display": "inline-block",
-              "left": 0,
-              "overflow": "hidden",
-              "position": "absolute",
-              "top": 0,
-              "width": "0%",
-            }
-          }
-        >
-          <span
-            style={
-              Object {
-                "backgroundColor": "black",
-                "border": "5px double white",
-                "borderRadius": "50%",
-                "display": "inline-block",
-                "height": 30,
-                "width": 30,
+              direction="ltr"
+              inactiveIcon={
+                Object {
+                  "backgroundColor": "#ccc",
+                  "border": "5px double white",
+                  "borderRadius": "50%",
+                  "display": "inline-block",
+                  "height": 30,
+                  "width": 30,
+                }
               }
-            }
-          />
-        </span>
-      </span>
-    </span>
+              index={0}
+              key="0"
+              percent={100}
+              readonly={true}
+            >
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "inherit",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "backgroundColor": "#ccc",
+                      "border": "5px double white",
+                      "borderRadius": "50%",
+                      "display": "inline-block",
+                      "height": 30,
+                      "width": 30,
+                    }
+                  }
+                />
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "backgroundColor": "black",
+                        "border": "5px double white",
+                        "borderRadius": "50%",
+                        "display": "inline-block",
+                        "height": 30,
+                        "width": 30,
+                      }
+                    }
+                  />
+                </span>
+              </span>
+            </RatingSymbol>
+            <RatingSymbol
+              activeIcon={
+                Object {
+                  "backgroundColor": "black",
+                  "border": "5px double white",
+                  "borderRadius": "50%",
+                  "display": "inline-block",
+                  "height": 30,
+                  "width": 30,
+                }
+              }
+              direction="ltr"
+              inactiveIcon={
+                Object {
+                  "backgroundColor": "#ccc",
+                  "border": "5px double white",
+                  "borderRadius": "50%",
+                  "display": "inline-block",
+                  "height": 30,
+                  "width": 30,
+                }
+              }
+              index={1}
+              key="1"
+              percent={100}
+              readonly={true}
+            >
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "inherit",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "backgroundColor": "#ccc",
+                      "border": "5px double white",
+                      "borderRadius": "50%",
+                      "display": "inline-block",
+                      "height": 30,
+                      "width": 30,
+                    }
+                  }
+                />
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "backgroundColor": "black",
+                        "border": "5px double white",
+                        "borderRadius": "50%",
+                        "display": "inline-block",
+                        "height": 30,
+                        "width": 30,
+                      }
+                    }
+                  />
+                </span>
+              </span>
+            </RatingSymbol>
+            <RatingSymbol
+              activeIcon={
+                Object {
+                  "backgroundColor": "black",
+                  "border": "5px double white",
+                  "borderRadius": "50%",
+                  "display": "inline-block",
+                  "height": 30,
+                  "width": 30,
+                }
+              }
+              direction="ltr"
+              inactiveIcon={
+                Object {
+                  "backgroundColor": "#ccc",
+                  "border": "5px double white",
+                  "borderRadius": "50%",
+                  "display": "inline-block",
+                  "height": 30,
+                  "width": 30,
+                }
+              }
+              index={2}
+              key="2"
+              percent={100}
+              readonly={true}
+            >
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "inherit",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "backgroundColor": "#ccc",
+                      "border": "5px double white",
+                      "borderRadius": "50%",
+                      "display": "inline-block",
+                      "height": 30,
+                      "width": 30,
+                    }
+                  }
+                />
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "backgroundColor": "black",
+                        "border": "5px double white",
+                        "borderRadius": "50%",
+                        "display": "inline-block",
+                        "height": 30,
+                        "width": 30,
+                      }
+                    }
+                  />
+                </span>
+              </span>
+            </RatingSymbol>
+            <RatingSymbol
+              activeIcon={
+                Object {
+                  "backgroundColor": "black",
+                  "border": "5px double white",
+                  "borderRadius": "50%",
+                  "display": "inline-block",
+                  "height": 30,
+                  "width": 30,
+                }
+              }
+              direction="ltr"
+              inactiveIcon={
+                Object {
+                  "backgroundColor": "#ccc",
+                  "border": "5px double white",
+                  "borderRadius": "50%",
+                  "display": "inline-block",
+                  "height": 30,
+                  "width": 30,
+                }
+              }
+              index={3}
+              key="3"
+              percent={100}
+              readonly={true}
+            >
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "inherit",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "backgroundColor": "#ccc",
+                      "border": "5px double white",
+                      "borderRadius": "50%",
+                      "display": "inline-block",
+                      "height": 30,
+                      "width": 30,
+                    }
+                  }
+                />
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "backgroundColor": "black",
+                        "border": "5px double white",
+                        "borderRadius": "50%",
+                        "display": "inline-block",
+                        "height": 30,
+                        "width": 30,
+                      }
+                    }
+                  />
+                </span>
+              </span>
+            </RatingSymbol>
+            <RatingSymbol
+              activeIcon={
+                Object {
+                  "backgroundColor": "black",
+                  "border": "5px double white",
+                  "borderRadius": "50%",
+                  "display": "inline-block",
+                  "height": 30,
+                  "width": 30,
+                }
+              }
+              direction="ltr"
+              inactiveIcon={
+                Object {
+                  "backgroundColor": "#ccc",
+                  "border": "5px double white",
+                  "borderRadius": "50%",
+                  "display": "inline-block",
+                  "height": 30,
+                  "width": 30,
+                }
+              }
+              index={4}
+              key="4"
+              percent={0}
+              readonly={true}
+            >
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "inherit",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "backgroundColor": "#ccc",
+                      "border": "5px double white",
+                      "borderRadius": "50%",
+                      "display": "inline-block",
+                      "height": 30,
+                      "width": 30,
+                    }
+                  }
+                />
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "backgroundColor": "black",
+                        "border": "5px double white",
+                        "borderRadius": "50%",
+                        "display": "inline-block",
+                        "height": 30,
+                        "width": 30,
+                      }
+                    }
+                  />
+                </span>
+              </span>
+            </RatingSymbol>
+          </span>
+        </Rating>
+      </RatingAPILayer>
+    </div>
+    <button
+      className="pb3 bg-light-blue black f3 w-100 br3 Details-button"
+      value="details"
+    >
+      details
+    </button>
   </div>
-  <button
-    className="pb3 bg-light-blue black f3 w-100 br3 Details-button"
-    value="details"
-  >
-    details
-  </button>
-</div>
+</MovieListCard>
 `;
