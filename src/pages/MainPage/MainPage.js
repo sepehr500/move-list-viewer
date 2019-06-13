@@ -21,7 +21,7 @@ class MainPage extends Component {
     this.setState({ activeMovieId: id });
   };
 
-  handleDetailsClose = () => {
+  handleDetailsCloseClick = () => {
     this.setState({ activeMovieId: null });
   };
 
@@ -51,7 +51,7 @@ class MainPage extends Component {
         isFavorite={movie.isFavorite}
         overview={movie.overview}
         onFavorite={() => this.handleDetailsFavoriteClick(movie.id)}
-        onClose={this.handleDetailsClose}
+        onClose={this.handleDetailsCloseClick}
         onClick={() => this.handleDetailsClick(movie.id)}
       />
     );
