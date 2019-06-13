@@ -1,0 +1,851 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<MovieModal
+  isFavorite={true}
+  onClick={[MockFunction]}
+  onClose={[MockFunction]}
+  onFavorite={[MockFunction]}
+  overview="Some stuff happens"
+  releaseDate="2016-08-04"
+  score={4}
+  thumbnailPath="/asdf9n.jpg"
+  title="Gone with the wind"
+>
+  <Modal
+    ariaHideApp={false}
+    bodyOpenClassName="ReactModal__Body--open"
+    className="Modal"
+    closeTimeoutMS={0}
+    contentLabel="Example Modal"
+    isOpen={true}
+    overlayClassName="Overlay"
+    parentSelector={[Function]}
+    portalClassName="ReactModalPortal"
+    role="dialog"
+    shouldCloseOnEsc={true}
+    shouldCloseOnOverlayClick={true}
+    shouldFocusAfterRender={true}
+    shouldReturnFocusAfterClose={true}
+  >
+    <Portal
+      containerInfo={
+        <div
+          class="ReactModalPortal"
+        >
+          <div
+            class="ReactModal__Overlay ReactModal__Overlay--after-open Overlay"
+          >
+            <div
+              aria-label="Example Modal"
+              class="ReactModal__Content ReactModal__Content--after-open Modal"
+              role="dialog"
+              tabindex="-1"
+            >
+              <div
+                class="flex-grow-1 center"
+              >
+                <img
+                  alt="Gone with the wind poster"
+                  src="/asdf9n.jpg"
+                />
+              </div>
+              <div
+                class="flex flex-column pa3 flex-grow-0 mw6"
+              >
+                <div
+                  class="tc f3 mb3"
+                >
+                  <div>
+                    Gone with the wind
+                  </div>
+                </div>
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-star fa-w-18 fa-3x gold mb3"
+                  data-icon="star"
+                  data-prefix="fas"
+                  data-testid="star"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <div>
+                  <div
+                    class="mb3"
+                  >
+                    Release date: 
+                    2016-08-04
+                  </div>
+                </div>
+                <span
+                  class="mb3"
+                  style="display: inline-block; direction: ltr;"
+                >
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span
+                      style="display: inline-block; border-radius: 50%; border: 5px double white; width: 30px; height: 30px; background-color: rgb(204, 204, 204);"
+                    />
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 100%;"
+                    >
+                      <span
+                        style="display: inline-block; border-radius: 50%; border: 5px double white; width: 30px; height: 30px; background-color: black;"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span
+                      style="display: inline-block; border-radius: 50%; border: 5px double white; width: 30px; height: 30px; background-color: rgb(204, 204, 204);"
+                    />
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 100%;"
+                    >
+                      <span
+                        style="display: inline-block; border-radius: 50%; border: 5px double white; width: 30px; height: 30px; background-color: black;"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span
+                      style="display: inline-block; border-radius: 50%; border: 5px double white; width: 30px; height: 30px; background-color: rgb(204, 204, 204);"
+                    />
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 100%;"
+                    >
+                      <span
+                        style="display: inline-block; border-radius: 50%; border: 5px double white; width: 30px; height: 30px; background-color: black;"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span
+                      style="display: inline-block; border-radius: 50%; border: 5px double white; width: 30px; height: 30px; background-color: rgb(204, 204, 204);"
+                    />
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 100%;"
+                    >
+                      <span
+                        style="display: inline-block; border-radius: 50%; border: 5px double white; width: 30px; height: 30px; background-color: black;"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span
+                      style="display: inline-block; border-radius: 50%; border: 5px double white; width: 30px; height: 30px; background-color: rgb(204, 204, 204);"
+                    />
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <span
+                        style="display: inline-block; border-radius: 50%; border: 5px double white; width: 30px; height: 30px; background-color: black;"
+                      />
+                    </span>
+                  </span>
+                </span>
+                <div
+                  class="mb3"
+                >
+                  <div>
+                    Some stuff happens
+                  </div>
+                </div>
+                <div>
+                  <button
+                    class="shadow-1 pb3 mb3 bg-light-blue black f3 w-100 br3 Details-button"
+                  >
+                    Unfavorite
+                  </button>
+                  <button
+                    class="shadow-1 pb3 bg-light-blue black f3 w-100 br3 Details-button"
+                    data-testid="closeButton"
+                  >
+                    close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      }
+    >
+      <ModalPortal
+        ariaHideApp={false}
+        bodyOpenClassName="ReactModal__Body--open"
+        className="Modal"
+        closeTimeoutMS={0}
+        contentLabel="Example Modal"
+        defaultStyles={
+          Object {
+            "content": Object {
+              "WebkitOverflowScrolling": "touch",
+              "background": "#fff",
+              "border": "1px solid #ccc",
+              "borderRadius": "4px",
+              "bottom": "40px",
+              "left": "40px",
+              "outline": "none",
+              "overflow": "auto",
+              "padding": "20px",
+              "position": "absolute",
+              "right": "40px",
+              "top": "40px",
+            },
+            "overlay": Object {
+              "backgroundColor": "rgba(255, 255, 255, 0.75)",
+              "bottom": 0,
+              "left": 0,
+              "position": "fixed",
+              "right": 0,
+              "top": 0,
+            },
+          }
+        }
+        isOpen={true}
+        overlayClassName="Overlay"
+        parentSelector={[Function]}
+        portalClassName="ReactModalPortal"
+        role="dialog"
+        shouldCloseOnEsc={true}
+        shouldCloseOnOverlayClick={true}
+        shouldFocusAfterRender={true}
+        shouldReturnFocusAfterClose={true}
+        style={
+          Object {
+            "content": Object {},
+            "overlay": Object {},
+          }
+        }
+      >
+        <div
+          className="ReactModal__Overlay ReactModal__Overlay--after-open Overlay"
+          onClick={[Function]}
+          onMouseDown={[Function]}
+          style={Object {}}
+        >
+          <div
+            aria-label="Example Modal"
+            className="ReactModal__Content ReactModal__Content--after-open Modal"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+            role="dialog"
+            style={Object {}}
+            tabIndex="-1"
+          >
+            <div
+              className="flex-grow-1 center"
+            >
+              <img
+                alt="Gone with the wind poster"
+                src="/asdf9n.jpg"
+              />
+            </div>
+            <div
+              className="flex flex-column pa3 flex-grow-0 mw6"
+            >
+              <div
+                className="tc f3 mb3"
+              >
+                <div>
+                  Gone with the wind
+                </div>
+              </div>
+              <FontAwesomeIcon
+                border={false}
+                className="gold mb3"
+                data-testid="star"
+                fixedWidth={false}
+                flip={null}
+                icon={
+                  Object {
+                    "icon": Array [
+                      576,
+                      512,
+                      Array [],
+                      "f005",
+                      "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z",
+                    ],
+                    "iconName": "star",
+                    "prefix": "fas",
+                  }
+                }
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size="3x"
+                spin={false}
+                symbol={false}
+                title=""
+                transform={null}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-star fa-w-18 fa-3x gold mb3"
+                  data-icon="star"
+                  data-prefix="fas"
+                  data-testid="star"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </FontAwesomeIcon>
+              <div>
+                <div
+                  className="mb3"
+                >
+                  Release date: 
+                  2016-08-04
+                </div>
+              </div>
+              <RatingAPILayer
+                className="mb3"
+                direction="ltr"
+                emptySymbol={
+                  Object {
+                    "backgroundColor": "#ccc",
+                    "border": "5px double white",
+                    "borderRadius": "50%",
+                    "display": "inline-block",
+                    "height": 30,
+                    "width": 30,
+                  }
+                }
+                fractions={2}
+                fullSymbol={
+                  Object {
+                    "backgroundColor": "black",
+                    "border": "5px double white",
+                    "borderRadius": "50%",
+                    "display": "inline-block",
+                    "height": 30,
+                    "width": 30,
+                  }
+                }
+                initialRating={4}
+                onChange={[Function]}
+                onClick={[Function]}
+                onHover={[Function]}
+                placeholderSymbol={
+                  Object {
+                    "backgroundColor": "red",
+                    "border": "5px double white",
+                    "borderRadius": "50%",
+                    "display": "inline-block",
+                    "height": 30,
+                    "width": 30,
+                  }
+                }
+                quiet={false}
+                readonly={true}
+                start={0}
+                step={1}
+                stop={5}
+              >
+                <Rating
+                  className="mb3"
+                  direction="ltr"
+                  emptySymbol={
+                    Object {
+                      "backgroundColor": "#ccc",
+                      "border": "5px double white",
+                      "borderRadius": "50%",
+                      "display": "inline-block",
+                      "height": 30,
+                      "width": 30,
+                    }
+                  }
+                  fractions={2}
+                  fullSymbol={
+                    Object {
+                      "backgroundColor": "black",
+                      "border": "5px double white",
+                      "borderRadius": "50%",
+                      "display": "inline-block",
+                      "height": 30,
+                      "width": 30,
+                    }
+                  }
+                  onClick={[Function]}
+                  onHover={[Function]}
+                  placeholderSymbol={
+                    Object {
+                      "backgroundColor": "red",
+                      "border": "5px double white",
+                      "borderRadius": "50%",
+                      "display": "inline-block",
+                      "height": 30,
+                      "width": 30,
+                    }
+                  }
+                  placeholderValue={0}
+                  quiet={false}
+                  readonly={true}
+                  totalSymbols={5}
+                  value={4}
+                >
+                  <span
+                    className="mb3"
+                    style={
+                      Object {
+                        "direction": "ltr",
+                        "display": "inline-block",
+                      }
+                    }
+                  >
+                    <RatingSymbol
+                      activeIcon={
+                        Object {
+                          "backgroundColor": "black",
+                          "border": "5px double white",
+                          "borderRadius": "50%",
+                          "display": "inline-block",
+                          "height": 30,
+                          "width": 30,
+                        }
+                      }
+                      direction="ltr"
+                      inactiveIcon={
+                        Object {
+                          "backgroundColor": "#ccc",
+                          "border": "5px double white",
+                          "borderRadius": "50%",
+                          "display": "inline-block",
+                          "height": 30,
+                          "width": 30,
+                        }
+                      }
+                      index={0}
+                      key="0"
+                      percent={100}
+                      readonly={true}
+                    >
+                      <span
+                        onClick={[Function]}
+                        onMouseMove={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        style={
+                          Object {
+                            "cursor": "inherit",
+                            "display": "inline-block",
+                            "position": "relative",
+                          }
+                        }
+                      >
+                        <span
+                          style={
+                            Object {
+                              "backgroundColor": "#ccc",
+                              "border": "5px double white",
+                              "borderRadius": "50%",
+                              "display": "inline-block",
+                              "height": 30,
+                              "width": 30,
+                            }
+                          }
+                        />
+                        <span
+                          style={
+                            Object {
+                              "display": "inline-block",
+                              "left": 0,
+                              "overflow": "hidden",
+                              "position": "absolute",
+                              "top": 0,
+                              "width": "100%",
+                            }
+                          }
+                        >
+                          <span
+                            style={
+                              Object {
+                                "backgroundColor": "black",
+                                "border": "5px double white",
+                                "borderRadius": "50%",
+                                "display": "inline-block",
+                                "height": 30,
+                                "width": 30,
+                              }
+                            }
+                          />
+                        </span>
+                      </span>
+                    </RatingSymbol>
+                    <RatingSymbol
+                      activeIcon={
+                        Object {
+                          "backgroundColor": "black",
+                          "border": "5px double white",
+                          "borderRadius": "50%",
+                          "display": "inline-block",
+                          "height": 30,
+                          "width": 30,
+                        }
+                      }
+                      direction="ltr"
+                      inactiveIcon={
+                        Object {
+                          "backgroundColor": "#ccc",
+                          "border": "5px double white",
+                          "borderRadius": "50%",
+                          "display": "inline-block",
+                          "height": 30,
+                          "width": 30,
+                        }
+                      }
+                      index={1}
+                      key="1"
+                      percent={100}
+                      readonly={true}
+                    >
+                      <span
+                        onClick={[Function]}
+                        onMouseMove={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        style={
+                          Object {
+                            "cursor": "inherit",
+                            "display": "inline-block",
+                            "position": "relative",
+                          }
+                        }
+                      >
+                        <span
+                          style={
+                            Object {
+                              "backgroundColor": "#ccc",
+                              "border": "5px double white",
+                              "borderRadius": "50%",
+                              "display": "inline-block",
+                              "height": 30,
+                              "width": 30,
+                            }
+                          }
+                        />
+                        <span
+                          style={
+                            Object {
+                              "display": "inline-block",
+                              "left": 0,
+                              "overflow": "hidden",
+                              "position": "absolute",
+                              "top": 0,
+                              "width": "100%",
+                            }
+                          }
+                        >
+                          <span
+                            style={
+                              Object {
+                                "backgroundColor": "black",
+                                "border": "5px double white",
+                                "borderRadius": "50%",
+                                "display": "inline-block",
+                                "height": 30,
+                                "width": 30,
+                              }
+                            }
+                          />
+                        </span>
+                      </span>
+                    </RatingSymbol>
+                    <RatingSymbol
+                      activeIcon={
+                        Object {
+                          "backgroundColor": "black",
+                          "border": "5px double white",
+                          "borderRadius": "50%",
+                          "display": "inline-block",
+                          "height": 30,
+                          "width": 30,
+                        }
+                      }
+                      direction="ltr"
+                      inactiveIcon={
+                        Object {
+                          "backgroundColor": "#ccc",
+                          "border": "5px double white",
+                          "borderRadius": "50%",
+                          "display": "inline-block",
+                          "height": 30,
+                          "width": 30,
+                        }
+                      }
+                      index={2}
+                      key="2"
+                      percent={100}
+                      readonly={true}
+                    >
+                      <span
+                        onClick={[Function]}
+                        onMouseMove={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        style={
+                          Object {
+                            "cursor": "inherit",
+                            "display": "inline-block",
+                            "position": "relative",
+                          }
+                        }
+                      >
+                        <span
+                          style={
+                            Object {
+                              "backgroundColor": "#ccc",
+                              "border": "5px double white",
+                              "borderRadius": "50%",
+                              "display": "inline-block",
+                              "height": 30,
+                              "width": 30,
+                            }
+                          }
+                        />
+                        <span
+                          style={
+                            Object {
+                              "display": "inline-block",
+                              "left": 0,
+                              "overflow": "hidden",
+                              "position": "absolute",
+                              "top": 0,
+                              "width": "100%",
+                            }
+                          }
+                        >
+                          <span
+                            style={
+                              Object {
+                                "backgroundColor": "black",
+                                "border": "5px double white",
+                                "borderRadius": "50%",
+                                "display": "inline-block",
+                                "height": 30,
+                                "width": 30,
+                              }
+                            }
+                          />
+                        </span>
+                      </span>
+                    </RatingSymbol>
+                    <RatingSymbol
+                      activeIcon={
+                        Object {
+                          "backgroundColor": "black",
+                          "border": "5px double white",
+                          "borderRadius": "50%",
+                          "display": "inline-block",
+                          "height": 30,
+                          "width": 30,
+                        }
+                      }
+                      direction="ltr"
+                      inactiveIcon={
+                        Object {
+                          "backgroundColor": "#ccc",
+                          "border": "5px double white",
+                          "borderRadius": "50%",
+                          "display": "inline-block",
+                          "height": 30,
+                          "width": 30,
+                        }
+                      }
+                      index={3}
+                      key="3"
+                      percent={100}
+                      readonly={true}
+                    >
+                      <span
+                        onClick={[Function]}
+                        onMouseMove={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        style={
+                          Object {
+                            "cursor": "inherit",
+                            "display": "inline-block",
+                            "position": "relative",
+                          }
+                        }
+                      >
+                        <span
+                          style={
+                            Object {
+                              "backgroundColor": "#ccc",
+                              "border": "5px double white",
+                              "borderRadius": "50%",
+                              "display": "inline-block",
+                              "height": 30,
+                              "width": 30,
+                            }
+                          }
+                        />
+                        <span
+                          style={
+                            Object {
+                              "display": "inline-block",
+                              "left": 0,
+                              "overflow": "hidden",
+                              "position": "absolute",
+                              "top": 0,
+                              "width": "100%",
+                            }
+                          }
+                        >
+                          <span
+                            style={
+                              Object {
+                                "backgroundColor": "black",
+                                "border": "5px double white",
+                                "borderRadius": "50%",
+                                "display": "inline-block",
+                                "height": 30,
+                                "width": 30,
+                              }
+                            }
+                          />
+                        </span>
+                      </span>
+                    </RatingSymbol>
+                    <RatingSymbol
+                      activeIcon={
+                        Object {
+                          "backgroundColor": "black",
+                          "border": "5px double white",
+                          "borderRadius": "50%",
+                          "display": "inline-block",
+                          "height": 30,
+                          "width": 30,
+                        }
+                      }
+                      direction="ltr"
+                      inactiveIcon={
+                        Object {
+                          "backgroundColor": "#ccc",
+                          "border": "5px double white",
+                          "borderRadius": "50%",
+                          "display": "inline-block",
+                          "height": 30,
+                          "width": 30,
+                        }
+                      }
+                      index={4}
+                      key="4"
+                      percent={0}
+                      readonly={true}
+                    >
+                      <span
+                        onClick={[Function]}
+                        onMouseMove={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        style={
+                          Object {
+                            "cursor": "inherit",
+                            "display": "inline-block",
+                            "position": "relative",
+                          }
+                        }
+                      >
+                        <span
+                          style={
+                            Object {
+                              "backgroundColor": "#ccc",
+                              "border": "5px double white",
+                              "borderRadius": "50%",
+                              "display": "inline-block",
+                              "height": 30,
+                              "width": 30,
+                            }
+                          }
+                        />
+                        <span
+                          style={
+                            Object {
+                              "display": "inline-block",
+                              "left": 0,
+                              "overflow": "hidden",
+                              "position": "absolute",
+                              "top": 0,
+                              "width": "0%",
+                            }
+                          }
+                        >
+                          <span
+                            style={
+                              Object {
+                                "backgroundColor": "black",
+                                "border": "5px double white",
+                                "borderRadius": "50%",
+                                "display": "inline-block",
+                                "height": 30,
+                                "width": 30,
+                              }
+                            }
+                          />
+                        </span>
+                      </span>
+                    </RatingSymbol>
+                  </span>
+                </Rating>
+              </RatingAPILayer>
+              <div
+                className="mb3"
+              >
+                <div>
+                  Some stuff happens
+                </div>
+              </div>
+              <div>
+                <button
+                  className="shadow-1 pb3 mb3 bg-light-blue black f3 w-100 br3 Details-button"
+                  onClick={[MockFunction]}
+                >
+                  Unfavorite
+                </button>
+                <button
+                  className="shadow-1 pb3 bg-light-blue black f3 w-100 br3 Details-button"
+                  data-testid="closeButton"
+                  onClick={[MockFunction]}
+                >
+                  close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ModalPortal>
+    </Portal>
+  </Modal>
+</MovieModal>
+`;

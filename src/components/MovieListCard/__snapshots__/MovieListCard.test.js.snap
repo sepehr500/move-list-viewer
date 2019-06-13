@@ -312,7 +312,8 @@ exports[`renders correctly 1`] = `
     </span>
   </div>
   <button
-    className="pb3 bg-light-blue black f3 w-100 br3 details-button"
+    className="pb3 bg-light-blue black f3 w-100 br3 Details-button"
+    value="details"
   >
     details
   </button>
