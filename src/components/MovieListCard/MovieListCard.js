@@ -1,5 +1,5 @@
 import React from "react";
-import Rating from "react-rating";
+import Rater from "react-rater";
 // TODO add prop types
 
 const MovieListCard = ({
@@ -21,8 +21,8 @@ const MovieListCard = ({
     <div className="ph2 mv2">
       <div className="mb1">Release date: {releaseDate}</div>
     </div>
-    <div className="ph2 mv2">
-      <Rating initialRating={score} readonly fractions={2} />
+    <div style={{ fontSize: "40px" }} className="f1">
+      <Rater interactive={false} total={5} rating={score} />
     </div>
     <button
       onClick={onClick}

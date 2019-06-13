@@ -1,6 +1,6 @@
 import React from "react";
 import Modal from "react-modal";
-import Rating from "react-rating";
+import Rater from "react-rater";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 
@@ -38,7 +38,9 @@ const MovieModal = ({
         <div>
           <div className="mb3">Release date: {releaseDate}</div>
         </div>
-        <Rating className="mb3" initialRating={score} readonly fractions={2} />
+        <div className="f1 pb1">
+          <Rater interactive={false} total={5} rating={score} />
+        </div>
         <div className="mb3">
           <div>{overview}</div>
         </div>
