@@ -29,12 +29,19 @@ const MovieModal = ({
         <div className="tc f3 mb3">
           <div>{title}</div>
         </div>
-        <FontAwesomeIcon
-          data-testid="star"
-          icon={faStar}
-          size="3x"
-          className={`${isFavorite ? "gold" : "gray"} mb3 Slow-transition`}
-        />
+        <button
+          data-testid="star-button"
+          aria-label={isFavorite ? "Click to favorite" : "Click to unfavorite"}
+          onClick={onFavorite}
+          className="star-button dim"
+        >
+          <FontAwesomeIcon
+            data-testid="star"
+            icon={faStar}
+            size="3x"
+            className={`${isFavorite ? "gold" : "gray"} mb3 Slow-transition`}
+          />
+        </button>
         <div>
           <div className="mb3">Release date: {releaseDate}</div>
         </div>
@@ -45,12 +52,6 @@ const MovieModal = ({
           <div>{overview}</div>
         </div>
         <div>
-          <button
-            onClick={onFavorite}
-            className={`shadow-1 pb3 mb3 f3 w-100 br3 Details-button`}
-          >
-            {isFavorite ? "Unfavorite" : "Add to favorites"}
-          </button>
           <button
             data-testid="closeButton"
             onClick={onClose}
