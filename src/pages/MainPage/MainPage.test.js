@@ -37,7 +37,7 @@ describe("renders", () => {
 
   it("renders error correctly", async () => {
     mock.onGet().reply(404, {});
-    const { getByText, getByTestId } = render(<MainPage />);
+    const { getByTestId } = render(<MainPage />);
     await waitForElement(() => getByTestId("sorry"));
     expect(getByTestId("sorry")).toBeTruthy();
   });
