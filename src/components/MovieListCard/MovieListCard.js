@@ -9,7 +9,7 @@ const MovieListCard = ({
   score,
   onClick
 }) => (
-  <div className="bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black">
+  <div className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black">
     <div className="dib center">
       <img alt={`${title} poster`} src={thumbnailPath} />
     </div>
@@ -26,7 +26,7 @@ const MovieListCard = ({
     </div>
     <button
       onClick={onClick}
-      className="pb3 f3 w-100 br3 Details-button"
+      className="pb3 f3 w-100 br2 Details-button"
       value="details"
     >
       details
