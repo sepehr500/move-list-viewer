@@ -48,6 +48,7 @@ exports[`renders correctly 1`] = `
                 <img
                   alt="Gone with the wind poster"
                   src="/asdf9n.jpg"
+                  style="border-radius: 2%;"
                 />
               </div>
               <div
@@ -83,9 +84,7 @@ exports[`renders correctly 1`] = `
                   </svg>
                 </button>
                 <div>
-                  <div
-                    class="mb3"
-                  >
+                  <div>
                     Release date: 
                     2016-08-04
                   </div>
@@ -225,6 +224,11 @@ exports[`renders correctly 1`] = `
               <img
                 alt="Gone with the wind poster"
                 src="/asdf9n.jpg"
+                style={
+                  Object {
+                    "borderRadius": "2%",
+                  }
+                }
               />
             </div>
             <div
@@ -295,9 +299,7 @@ exports[`renders correctly 1`] = `
                 </FontAwesomeIcon>
               </button>
               <div>
-                <div
-                  className="mb3"
-                >
+                <div>
                   Release date: 
                   2016-08-04
                 </div>

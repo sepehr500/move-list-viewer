@@ -99,5 +99,6 @@ describe("view details flow", () => {
 
     fireEvent.click(getByTestId("star-button"));
     expect(Object.values(getByTestId("star").classList)).toContain("gray");
+    expect(Object.values(getByTestId("star").classList)).not.toContain("gold");
   });
 });
