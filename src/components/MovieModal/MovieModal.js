@@ -21,7 +21,7 @@ const MovieModal = ({
       ariaHideApp={false}
       overlayClassName="Overlay"
       className="Modal"
-      contentLabel="Example Modal"
+      contentLabel={`${title} details`}
     >
       <div className="flex-grow-1 center">
         <img alt={`${title} poster`} src={thumbnailPath} />
@@ -32,7 +32,7 @@ const MovieModal = ({
         </div>
         <button
           data-testid="star-button"
-          aria-label={isFavorite ? "Click to favorite" : "Click to unfavorite"}
+          aria-label={isFavorite ? "Click to unfavorite" : "Click to favorite"}
           onClick={onFavorite}
           className="star-button dim"
         >

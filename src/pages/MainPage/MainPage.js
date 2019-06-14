@@ -3,6 +3,7 @@ import { MovieListCard } from "../../components/MovieListCard";
 import { buildImageUrl } from "../../utils/theMovieDbAPI";
 import { discover } from "../../utils/theMovieDbAPI";
 import { MovieModal } from "../../components/MovieModal";
+import { formatDate } from "../../utils/formatDate";
 
 class MainPage extends Component {
   state = {
@@ -46,7 +47,7 @@ class MainPage extends Component {
       <MovieModal
         title={movie.title}
         thumbnailPath={buildImageUrl(movie.poster_path, 300)}
-        releaseDate={movie.release_date}
+        releaseDate={formatDate(movie.release_date)}
         score={movie.vote_average / 2}
         isFavorite={!!movie.isFavorite}
         overview={movie.overview}
@@ -72,7 +73,7 @@ class MainPage extends Component {
             key={movie.id}
             title={`${index + 1}. ${movie.title}`}
             thumbnailPath={buildImageUrl(movie.poster_path, 200)}
-            releaseDate={movie.release_date}
+            releaseDate={formatDate(movie.release_date)}
             score={movie.vote_average / 2}
             onClick={() => this.handleDetailsClick(movie.id)}
           />

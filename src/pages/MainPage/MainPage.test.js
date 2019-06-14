@@ -32,6 +32,7 @@ it("renders loading correctly", async () => {
 it("renders data correctly", async () => {
   const tree = mount(<MainPage />);
   await flushPromises();
+  tree.update();
   expect(tree).toMatchSnapshot();
 });
 
