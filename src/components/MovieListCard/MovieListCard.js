@@ -21,12 +21,12 @@ const MovieListCard = ({
     <div className="ph2 mv2">
       <div className="mb1">Release date: {releaseDate}</div>
     </div>
-    <div style={{ fontSize: "40px" }} className="f1">
+    <div style={{ fontSize: "40px" }} className=" center f1">
       <Rater interactive={false} total={5} rating={score} />
     </div>
     <button
       onClick={onClick}
-      className="pb3 f3 w-100 br2 Details-button"
+      className="pb3 f3 w-100 br--bottom br2 Details-button"
       value="details"
     >
       details

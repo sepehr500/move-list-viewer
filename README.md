@@ -23,3 +23,7 @@ Usually not a goto of mine, but few libraries can beat it when it comes to getti
 ### React testing library
 
 A strong emphisis was placed on integration testing in this assignment. React testing library is a nice way of doing this. It provides a high level abstration layer for testing allowing you to test without including implementation details in your tests. This makes your tests easy to reason about and resilient to change. This being said, I did use snapshot tests for added security.
+
+### Accessibility
+
+Accessibility was a focus of mine in the assignment. I chose a modal library that that has accesiblity features such as a focus trap in the modal, and focus returning to last area of focus on modal close. I also made sure that the "Favorite" star button had the proper label and focus so that it was accessible. I periodicaly used a screen reader when developing this application and ran Lighthouse audits to make sure the app was accessible.
