@@ -24,7 +24,11 @@ const MovieModal = ({
       contentLabel={`${title} details`}
     >
       <div className="flex-grow-1 center">
-        <img alt={`${title} poster`} src={thumbnailPath} />
+        <img
+          style={{ borderRadius: "2%" }}
+          alt={`${title} poster`}
+          src={thumbnailPath}
+        />
       </div>
       <div className="flex flex-column pa3 flex-grow-0 mw6">
         <div className="tc f3 mb3">
@@ -44,7 +48,7 @@ const MovieModal = ({
           />
         </button>
         <div>
-          <div className="mb3">Release date: {releaseDate}</div>
+          <div>Release date: {releaseDate}</div>
         </div>
         <div className="f1 pb1">
           <Rater interactive={false} total={5} rating={score} />
