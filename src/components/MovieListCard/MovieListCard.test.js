@@ -10,6 +10,7 @@ it("renders correctly", () => {
       thumbnailPath="/asdf9n.jpg"
       releaseDate="2016-08-04"
       score={4}
+      onClick={jest.fn()}
     />
   );
   expect(tree).toMatchSnapshot();

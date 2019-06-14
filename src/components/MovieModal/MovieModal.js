@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Modal from "react-modal";
 import Rater from "react-rater";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -63,6 +64,17 @@ const MovieModal = ({
       </div>
     </Modal>
   );
+};
+
+MovieModal.propTypes = {
+  title: PropTypes.string.isRequired,
+  thumbnailPath: PropTypes.string.isRequired,
+  releaseDate: PropTypes.string.isRequired,
+  overview: PropTypes.string.isRequired,
+  score: PropTypes.number.isRequired,
+  onClose: PropTypes.func.isRequired,
+  onFavorite: PropTypes.func.isRequired,
+  isFavorite: PropTypes.bool.isRequired
 };
 
 export { MovieModal };
