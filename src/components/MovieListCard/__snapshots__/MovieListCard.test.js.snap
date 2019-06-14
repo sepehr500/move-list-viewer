@@ -8,7 +8,7 @@ exports[`renders correctly 1`] = `
   title="Gone with the wind"
 >
   <div
-    className="bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+    className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
   >
     <div
       className="dib center"
@@ -159,7 +159,7 @@ exports[`renders correctly 1`] = `
       </Rater>
     </div>
     <button
-      className="pb3 f3 w-100 br3 Details-button"
+      className="pb3 f3 w-100 br2 Details-button"
       value="details"
     >
       details

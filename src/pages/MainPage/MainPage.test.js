@@ -49,7 +49,6 @@ describe("view details flow", () => {
     await waitForMovieList(getByTestId);
     fireEvent.click(getAllByText("details")[0]);
     expect(getByText("close")).toBeTruthy();
-    expect(getByText("Add to favorites")).toBeTruthy();
   });
 
   it("closes modal when close is clicked", async () => {
@@ -63,31 +62,26 @@ describe("view details flow", () => {
     expect(queryByTestId("close-button")).toBeFalsy();
   });
 
-  it("marks favorite when Add to favorites is clicked", async () => {
+  it("marks favorite when star is clicked", async () => {
     const { getByText, getAllByText, getByTestId } = render(<MainPage />);
     await waitForMovieList(getByTestId);
     fireEvent.click(getAllByText("details")[0]);
 
-    expect(getByText("Add to favorites")).toBeTruthy();
-    fireEvent.click(getByText("Add to favorites"));
+    fireEvent.click(getByTestId("star-button"));
 
-    expect(getByText("Unfavorite")).toBeTruthy();
     // Not ideal. But no way of knowing that the star is gold without checking the class
     expect(Object.values(getByTestId("star").classList)).toContain("gold");
   });
 
-  it("unfavorites when Unfavorite is clicked", async () => {
+  it("unfavorites when star is clicked twice", async () => {
     const { getByText, getAllByText, getByTestId } = render(<MainPage />);
     await waitForMovieList(getByTestId);
     fireEvent.click(getAllByText("details")[0]);
+    fireEvent.click(getByTestId("star-button"));
 
-    expect(getByText("Add to favorites")).toBeTruthy();
-    fireEvent.click(getByText("Add to favorites"));
-
-    expect(getByText("Unfavorite")).toBeTruthy();
     expect(Object.values(getByTestId("star").classList)).toContain("gold");
 
-    fireEvent.click(getByText("Unfavorite"));
+    fireEvent.click(getByTestId("star-button"));
     expect(Object.values(getByTestId("star").classList)).toContain("gray");
   });
 });
