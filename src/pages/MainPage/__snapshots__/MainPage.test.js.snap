@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders data correctly 1`] = `
+exports[`renders renders data correctly 1`] = `
 <MainPage>
   <div
     className="mw8 flex justify-center flex-wrap center"

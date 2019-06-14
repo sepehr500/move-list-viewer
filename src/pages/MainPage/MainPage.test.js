@@ -14,7 +14,6 @@ import fakeResponse from "./fakeResponse.json";
 const mock = new MockAdapter(axios);
 
 // When there is more then one request make this onGet more specific
-mock.onGet().reply(200, fakeResponse);
 
 const waitForMovieList = getByTestIdFn =>
   waitForElement(() => getByTestIdFn("movie-list"));
@@ -24,21 +23,37 @@ function flushPromises() {
   return new Promise(resolve => setImmediate(resolve));
 }
 
-it("renders loading correctly", async () => {
-  const { getByText } = render(<MainPage />);
-  expect(getByText("Loading...")).toBeTruthy();
-});
+describe("renders", () => {
+  beforeEach(() => {
+    mock.reset();
+    cleanup();
+    mock.onGet().reply(200, fakeResponse);
+  });
 
-it("renders data correctly", async () => {
-  const tree = mount(<MainPage />);
-  await flushPromises();
-  tree.update();
-  expect(tree).toMatchSnapshot();
-});
+  it("renders loading correctly", async () => {
+    const { getByText } = render(<MainPage />);
+    expect(getByText("Loading...")).toBeTruthy();
+  });
 
-it("renders correct number of cards", async () => {
-  const { getByTestId } = render(<MainPage />);
-  expect(getByTestId("movie-list").children.length).toBe(20);
+  it("renders error correctly", async () => {
+    mock.onGet().reply(404, {});
+    const { getByText, getByTestId } = render(<MainPage />);
+    await waitForElement(() => getByTestId("sorry"));
+    expect(getByTestId("sorry")).toBeTruthy();
+  });
+
+  it("renders data correctly", async () => {
+    const tree = mount(<MainPage />);
+    await flushPromises();
+    tree.update();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it("renders correct number of cards", async () => {
+    const { getByTestId } = render(<MainPage />);
+    await waitForMovieList(getByTestId);
+    expect(getByTestId("movie-list").children.length).toBe(20);
+  });
 });
 
 describe("view details flow", () => {
