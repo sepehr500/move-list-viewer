@@ -63,7 +63,7 @@ describe("view details flow", () => {
   });
 
   it("marks favorite when star is clicked", async () => {
-    const { getByText, getAllByText, getByTestId } = render(<MainPage />);
+    const { getAllByText, getByTestId } = render(<MainPage />);
     await waitForMovieList(getByTestId);
     fireEvent.click(getAllByText("details")[0]);
 
@@ -74,7 +74,7 @@ describe("view details flow", () => {
   });
 
   it("unfavorites when star is clicked twice", async () => {
-    const { getByText, getAllByText, getByTestId } = render(<MainPage />);
+    const { getAllByText, getByTestId } = render(<MainPage />);
     await waitForMovieList(getByTestId);
     fireEvent.click(getAllByText("details")[0]);
     fireEvent.click(getByTestId("star-button"));

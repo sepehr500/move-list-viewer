@@ -48,7 +48,7 @@ class MainPage extends Component {
         thumbnailPath={buildImageUrl(movie.poster_path, 300)}
         releaseDate={movie.release_date}
         score={movie.vote_average / 2}
-        isFavorite={movie.isFavorite}
+        isFavorite={!!movie.isFavorite}
         overview={movie.overview}
         onFavorite={() => this.handleDetailsFavoriteClick(movie.id)}
         onClose={this.handleDetailsCloseClick}
@@ -67,10 +67,10 @@ class MainPage extends Component {
         className="mw8 flex justify-center flex-wrap center"
       >
         {this.createMovieModal()}
-        {this.state.movies.map(movie => (
+        {this.state.movies.map((movie, index) => (
           <MovieListCard
             key={movie.id}
-            title={movie.title}
+            title={`${index + 1}. ${movie.title}`}
             thumbnailPath={buildImageUrl(movie.poster_path, 200)}
             releaseDate={movie.release_date}
             score={movie.vote_average / 2}

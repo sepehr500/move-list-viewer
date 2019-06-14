@@ -1,6 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Rater from "react-rater";
-// TODO add prop types
 
 const MovieListCard = ({
   title,
@@ -33,5 +33,13 @@ const MovieListCard = ({
     </button>
   </div>
 );
+
+MovieListCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  thumbnailPath: PropTypes.string.isRequired,
+  releaseDate: PropTypes.string.isRequired,
+  score: PropTypes.number.isRequired,
+  onClick: PropTypes.func.isRequired
+};
 
 export { MovieListCard };
