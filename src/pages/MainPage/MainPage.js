@@ -9,13 +9,20 @@ class MainPage extends Component {
   state = {
     movies: [],
     loading: true,
-    activeMovieId: null
+    activeMovieId: null,
+    error: false
   };
 
   componentDidMount() {
-    discover.getMovies().then(resp => {
-      this.setState({ movies: resp.data.results, loading: false });
-    });
+    discover
+      .getMovies()
+      .then(resp => {
+        this.setState({ movies: resp.data.results, loading: false });
+      })
+      .catch(() => {
+        // Log to error monitoring here
+        this.setState({ error: true });
+      });
   }
 
   handleDetailsClick = id => {
@@ -59,8 +66,19 @@ class MainPage extends Component {
   };
 
   render() {
+    if (this.state.error) {
+      return (
+        <div data-testid="sorry" className="tc pt7">
+          <h1> Sorry, something went wrong. Please try again later.</h1>
+        </div>
+      );
+    }
     if (this.state.loading) {
-      return <div>Loading...</div>;
+      return (
+        <div className="tc pt7">
+          <h1>Loading...</h1>
+        </div>
+      );
     }
     return (
       <div
