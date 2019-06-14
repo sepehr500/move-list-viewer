@@ -69,7 +69,7 @@ class MainPage extends Component {
     if (this.state.error) {
       return (
         <div data-testid="sorry" className="tc pt7">
-          <h1> Sorry. Something went wrong. Please try again later</h1>
+          <h1> Sorry, something went wrong. Please try again later.</h1>
         </div>
       );
     }
