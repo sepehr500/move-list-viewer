@@ -2,6 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <MovieListCard
+  onClick={[MockFunction]}
   releaseDate="2016-08-04"
   score={4}
   thumbnailPath="/asdf9n.jpg"
@@ -160,6 +161,7 @@ exports[`renders correctly 1`] = `
     </div>
     <button
       className="pb3 f3 w-100 br2 Details-button"
+      onClick={[MockFunction]}
       value="details"
     >
       details

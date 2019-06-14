@@ -17,7 +17,7 @@ exports[`renders correctly 1`] = `
     bodyOpenClassName="ReactModal__Body--open"
     className="Modal"
     closeTimeoutMS={0}
-    contentLabel="Example Modal"
+    contentLabel="Gone with the wind details"
     isOpen={true}
     overlayClassName="Overlay"
     parentSelector={[Function]}
@@ -37,7 +37,7 @@ exports[`renders correctly 1`] = `
             class="ReactModal__Overlay ReactModal__Overlay--after-open Overlay"
           >
             <div
-              aria-label="Example Modal"
+              aria-label="Gone with the wind details"
               class="ReactModal__Content ReactModal__Content--after-open Modal"
               role="dialog"
               tabindex="-1"
@@ -61,7 +61,7 @@ exports[`renders correctly 1`] = `
                   </div>
                 </div>
                 <button
-                  aria-label="Click to favorite"
+                  aria-label="Click to unfavorite"
                   class="star-button dim"
                   data-testid="star-button"
                 >
@@ -159,7 +159,7 @@ exports[`renders correctly 1`] = `
         bodyOpenClassName="ReactModal__Body--open"
         className="Modal"
         closeTimeoutMS={0}
-        contentLabel="Example Modal"
+        contentLabel="Gone with the wind details"
         defaultStyles={
           Object {
             "content": Object {
@@ -209,7 +209,7 @@ exports[`renders correctly 1`] = `
           style={Object {}}
         >
           <div
-            aria-label="Example Modal"
+            aria-label="Gone with the wind details"
             className="ReactModal__Content ReactModal__Content--after-open Modal"
             onClick={[Function]}
             onKeyDown={[Function]}
@@ -238,7 +238,7 @@ exports[`renders correctly 1`] = `
                 </div>
               </div>
               <button
-                aria-label="Click to favorite"
+                aria-label="Click to unfavorite"
                 className="star-button dim"
                 data-testid="star-button"
                 onClick={[MockFunction]}
