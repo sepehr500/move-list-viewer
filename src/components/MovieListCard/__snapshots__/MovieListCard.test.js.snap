@@ -51,7 +51,7 @@ exports[`renders correctly 1`] = `
       </div>
     </div>
     <div
-      className="f1"
+      className=" center f1"
       style={
         Object {
           "fontSize": "40px",
@@ -160,7 +160,7 @@ exports[`renders correctly 1`] = `
       </Rater>
     </div>
     <button
-      className="pb3 f3 w-100 br2 Details-button"
+      className="pb3 f3 w-100 br--bottom br2 Details-button"
       onClick={[MockFunction]}
       value="details"
     >
