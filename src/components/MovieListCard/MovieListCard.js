@@ -9,19 +9,21 @@ const MovieListCard = ({
   score,
   onClick
 }) => (
-  <div className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black">
+  <article className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1">
     <div className="dib center">
       <img alt={`${title} poster`} src={thumbnailPath} />
     </div>
     <div style={{ height: "4rem" }} className="tc">
       <div className="pt3 ph2" style={{ maxWidth: "200px" }}>
-        <b>{title}</b>
+        <h1 className="f5">{title}</h1>
       </div>
     </div>
     <div className="ph2 mv2">
-      <div className="mb1">Release date: {releaseDate}</div>
+      <div className="mb1">
+        <p>Release date: {releaseDate}</p>
+      </div>
     </div>
-    <div style={{ fontSize: "40px" }} className=" center f1">
+    <div style={{ fontSize: "40px" }} className="ph2 center f1">
       <Rater interactive={false} total={5} rating={score} />
     </div>
     <button
@@ -31,7 +33,7 @@ const MovieListCard = ({
     >
       details
     </button>
-  </div>
+  </article>
 );
 
 MovieListCard.propTypes = {

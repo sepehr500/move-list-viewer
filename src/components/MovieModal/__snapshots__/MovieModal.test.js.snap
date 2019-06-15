@@ -42,24 +42,23 @@ exports[`renders correctly 1`] = `
               role="dialog"
               tabindex="-1"
             >
+              <img
+                alt="Gone with the wind poster"
+                class="center"
+                src="/asdf9n.jpg"
+                style="border-radius: 2%;"
+              />
               <div
-                class="flex-grow-1 center"
-              >
-                <img
-                  alt="Gone with the wind poster"
-                  src="/asdf9n.jpg"
-                  style="border-radius: 2%;"
-                />
-              </div>
-              <div
-                class="flex flex-column pa3 flex-grow-0 mw6"
+                class="pa3 mw6"
               >
                 <div
                   class="tc f3 mb3"
                 >
-                  <div>
+                  <h1
+                    class="f2"
+                  >
                     Gone with the wind
-                  </div>
+                  </h1>
                 </div>
                 <button
                   aria-label="Click to unfavorite"
@@ -84,10 +83,10 @@ exports[`renders correctly 1`] = `
                   </svg>
                 </button>
                 <div>
-                  <div>
+                  <p>
                     Release date: 
                     2016-08-04
-                  </div>
+                  </p>
                 </div>
                 <div
                   class="f1 pb1"
@@ -135,9 +134,9 @@ exports[`renders correctly 1`] = `
                 <div
                   class="mb3"
                 >
-                  <div>
+                  <p>
                     Some stuff happens
-                  </div>
+                  </p>
                 </div>
                 <div>
                   <button
@@ -218,28 +217,27 @@ exports[`renders correctly 1`] = `
             style={Object {}}
             tabIndex="-1"
           >
-            <div
-              className="flex-grow-1 center"
-            >
-              <img
-                alt="Gone with the wind poster"
-                src="/asdf9n.jpg"
-                style={
-                  Object {
-                    "borderRadius": "2%",
-                  }
+            <img
+              alt="Gone with the wind poster"
+              className="center"
+              src="/asdf9n.jpg"
+              style={
+                Object {
+                  "borderRadius": "2%",
                 }
-              />
-            </div>
+              }
+            />
             <div
-              className="flex flex-column pa3 flex-grow-0 mw6"
+              className="pa3 mw6"
             >
               <div
                 className="tc f3 mb3"
               >
-                <div>
+                <h1
+                  className="f2"
+                >
                   Gone with the wind
-                </div>
+                </h1>
               </div>
               <button
                 aria-label="Click to unfavorite"
@@ -299,10 +297,10 @@ exports[`renders correctly 1`] = `
                 </FontAwesomeIcon>
               </button>
               <div>
-                <div>
+                <p>
                   Release date: 
                   2016-08-04
-                </div>
+                </p>
               </div>
               <div
                 className="f1 pb1"
@@ -411,9 +409,9 @@ exports[`renders correctly 1`] = `
               <div
                 className="mb3"
               >
-                <div>
+                <p>
                   Some stuff happens
-                </div>
+                </p>
               </div>
               <div>
                 <button
