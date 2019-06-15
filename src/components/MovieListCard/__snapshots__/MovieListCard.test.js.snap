@@ -8,8 +8,8 @@ exports[`renders correctly 1`] = `
   thumbnailPath="/asdf9n.jpg"
   title="Gone with the wind"
 >
-  <div
-    className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+  <article
+    className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
   >
     <div
       className="dib center"
@@ -35,9 +35,11 @@ exports[`renders correctly 1`] = `
           }
         }
       >
-        <b>
+        <h1
+          className="f5"
+        >
           Gone with the wind
-        </b>
+        </h1>
       </div>
     </div>
     <div
@@ -46,12 +48,14 @@ exports[`renders correctly 1`] = `
       <div
         className="mb1"
       >
-        Release date: 
-        2016-08-04
+        <p>
+          Release date: 
+          2016-08-04
+        </p>
       </div>
     </div>
     <div
-      className=" center f1"
+      className="ph2 center f1"
       style={
         Object {
           "fontSize": "40px",
@@ -166,6 +170,6 @@ exports[`renders correctly 1`] = `
     >
       details
     </button>
-  </div>
+  </article>
 </MovieListCard>
 `;

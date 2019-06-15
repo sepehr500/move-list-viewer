@@ -14,8 +14,8 @@ exports[`renders renders data correctly 1`] = `
       thumbnailPath="http://image.tmdb.org/t/p/w200/zSouWWrySXshPCT4t3UKCQGayyo.jpg"
       title="1. X-Men: Apocalypse"
     >
-      <div
-        className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+      <article
+        className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
       >
         <div
           className="dib center"
@@ -41,9 +41,11 @@ exports[`renders renders data correctly 1`] = `
               }
             }
           >
-            <b>
+            <h1
+              className="f5"
+            >
               1. X-Men: Apocalypse
-            </b>
+            </h1>
           </div>
         </div>
         <div
@@ -52,12 +54,14 @@ exports[`renders renders data correctly 1`] = `
           <div
             className="mb1"
           >
-            Release date: 
-            05/18/2016
+            <p>
+              Release date: 
+              05/18/2016
+            </p>
           </div>
         </div>
         <div
-          className=" center f1"
+          className="ph2 center f1"
           style={
             Object {
               "fontSize": "40px",
@@ -172,7 +176,7 @@ exports[`renders renders data correctly 1`] = `
         >
           details
         </button>
-      </div>
+      </article>
     </MovieListCard>
     <MovieListCard
       key="271110"
@@ -182,8 +186,8 @@ exports[`renders renders data correctly 1`] = `
       thumbnailPath="http://image.tmdb.org/t/p/w200/kSBXou5Ac7vEqKd97wotJumyJvU.jpg"
       title="2. Captain America: Civil War"
     >
-      <div
-        className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+      <article
+        className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
       >
         <div
           className="dib center"
@@ -209,9 +213,11 @@ exports[`renders renders data correctly 1`] = `
               }
             }
           >
-            <b>
+            <h1
+              className="f5"
+            >
               2. Captain America: Civil War
-            </b>
+            </h1>
           </div>
         </div>
         <div
@@ -220,12 +226,14 @@ exports[`renders renders data correctly 1`] = `
           <div
             className="mb1"
           >
-            Release date: 
-            04/27/2016
+            <p>
+              Release date: 
+              04/27/2016
+            </p>
           </div>
         </div>
         <div
-          className=" center f1"
+          className="ph2 center f1"
           style={
             Object {
               "fontSize": "40px",
@@ -340,7 +348,7 @@ exports[`renders renders data correctly 1`] = `
         >
           details
         </button>
-      </div>
+      </article>
     </MovieListCard>
     <MovieListCard
       key="293660"
@@ -350,8 +358,8 @@ exports[`renders renders data correctly 1`] = `
       thumbnailPath="http://image.tmdb.org/t/p/w200/inVq3FRqcYIRl2la8iZikYYxFNR.jpg"
       title="3. Deadpool"
     >
-      <div
-        className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+      <article
+        className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
       >
         <div
           className="dib center"
@@ -377,9 +385,11 @@ exports[`renders renders data correctly 1`] = `
               }
             }
           >
-            <b>
+            <h1
+              className="f5"
+            >
               3. Deadpool
-            </b>
+            </h1>
           </div>
         </div>
         <div
@@ -388,12 +398,14 @@ exports[`renders renders data correctly 1`] = `
           <div
             className="mb1"
           >
-            Release date: 
-            02/09/2016
+            <p>
+              Release date: 
+              02/09/2016
+            </p>
           </div>
         </div>
         <div
-          className=" center f1"
+          className="ph2 center f1"
           style={
             Object {
               "fontSize": "40px",
@@ -508,7 +520,7 @@ exports[`renders renders data correctly 1`] = `
         >
           details
         </button>
-      </div>
+      </article>
     </MovieListCard>
     <MovieListCard
       key="259316"
@@ -518,8 +530,8 @@ exports[`renders renders data correctly 1`] = `
       thumbnailPath="http://image.tmdb.org/t/p/w200/1M91Bt3oGspda75H9eLqYZkJzgO.jpg"
       title="4. Fantastic Beasts and Where to Find Them"
     >
-      <div
-        className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+      <article
+        className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
       >
         <div
           className="dib center"
@@ -545,9 +557,11 @@ exports[`renders renders data correctly 1`] = `
               }
             }
           >
-            <b>
+            <h1
+              className="f5"
+            >
               4. Fantastic Beasts and Where to Find Them
-            </b>
+            </h1>
           </div>
         </div>
         <div
@@ -556,12 +570,14 @@ exports[`renders renders data correctly 1`] = `
           <div
             className="mb1"
           >
-            Release date: 
-            11/16/2016
+            <p>
+              Release date: 
+              11/16/2016
+            </p>
           </div>
         </div>
         <div
-          className=" center f1"
+          className="ph2 center f1"
           style={
             Object {
               "fontSize": "40px",
@@ -676,7 +692,7 @@ exports[`renders renders data correctly 1`] = `
         >
           details
         </button>
-      </div>
+      </article>
     </MovieListCard>
     <MovieListCard
       key="209112"
@@ -686,8 +702,8 @@ exports[`renders renders data correctly 1`] = `
       thumbnailPath="http://image.tmdb.org/t/p/w200/cGOPbv9wA5gEejkUN892JrveARt.jpg"
       title="5. Batman v Superman: Dawn of Justice"
     >
-      <div
-        className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+      <article
+        className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
       >
         <div
           className="dib center"
@@ -713,9 +729,11 @@ exports[`renders renders data correctly 1`] = `
               }
             }
           >
-            <b>
+            <h1
+              className="f5"
+            >
               5. Batman v Superman: Dawn of Justice
-            </b>
+            </h1>
           </div>
         </div>
         <div
@@ -724,12 +742,14 @@ exports[`renders renders data correctly 1`] = `
           <div
             className="mb1"
           >
-            Release date: 
-            03/23/2016
+            <p>
+              Release date: 
+              03/23/2016
+            </p>
           </div>
         </div>
         <div
-          className=" center f1"
+          className="ph2 center f1"
           style={
             Object {
               "fontSize": "40px",
@@ -844,7 +864,7 @@ exports[`renders renders data correctly 1`] = `
         >
           details
         </button>
-      </div>
+      </article>
     </MovieListCard>
     <MovieListCard
       key="284052"
@@ -854,8 +874,8 @@ exports[`renders renders data correctly 1`] = `
       thumbnailPath="http://image.tmdb.org/t/p/w200/4PiiNGXj1KENTmCBHeN6Mskj2Fq.jpg"
       title="6. Doctor Strange"
     >
-      <div
-        className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+      <article
+        className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
       >
         <div
           className="dib center"
@@ -881,9 +901,11 @@ exports[`renders renders data correctly 1`] = `
               }
             }
           >
-            <b>
+            <h1
+              className="f5"
+            >
               6. Doctor Strange
-            </b>
+            </h1>
           </div>
         </div>
         <div
@@ -892,12 +914,14 @@ exports[`renders renders data correctly 1`] = `
           <div
             className="mb1"
           >
-            Release date: 
-            10/25/2016
+            <p>
+              Release date: 
+              10/25/2016
+            </p>
           </div>
         </div>
         <div
-          className=" center f1"
+          className="ph2 center f1"
           style={
             Object {
               "fontSize": "40px",
@@ -1012,7 +1036,7 @@ exports[`renders renders data correctly 1`] = `
         >
           details
         </button>
-      </div>
+      </article>
     </MovieListCard>
     <MovieListCard
       key="269149"
@@ -1022,8 +1046,8 @@ exports[`renders renders data correctly 1`] = `
       thumbnailPath="http://image.tmdb.org/t/p/w200/sM33SANp9z6rXW8Itn7NnG1GOEs.jpg"
       title="7. Zootopia"
     >
-      <div
-        className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+      <article
+        className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
       >
         <div
           className="dib center"
@@ -1049,9 +1073,11 @@ exports[`renders renders data correctly 1`] = `
               }
             }
           >
-            <b>
+            <h1
+              className="f5"
+            >
               7. Zootopia
-            </b>
+            </h1>
           </div>
         </div>
         <div
@@ -1060,12 +1086,14 @@ exports[`renders renders data correctly 1`] = `
           <div
             className="mb1"
           >
-            Release date: 
-            02/11/2016
+            <p>
+              Release date: 
+              02/11/2016
+            </p>
           </div>
         </div>
         <div
-          className=" center f1"
+          className="ph2 center f1"
           style={
             Object {
               "fontSize": "40px",
@@ -1180,7 +1208,7 @@ exports[`renders renders data correctly 1`] = `
         >
           details
         </button>
-      </div>
+      </article>
     </MovieListCard>
     <MovieListCard
       key="291805"
@@ -1190,8 +1218,8 @@ exports[`renders renders data correctly 1`] = `
       thumbnailPath="http://image.tmdb.org/t/p/w200/hU0E130tsGdsYa4K9lc3Xrn5Wyt.jpg"
       title="8. Now You See Me 2"
     >
-      <div
-        className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+      <article
+        className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
       >
         <div
           className="dib center"
@@ -1217,9 +1245,11 @@ exports[`renders renders data correctly 1`] = `
               }
             }
           >
-            <b>
+            <h1
+              className="f5"
+            >
               8. Now You See Me 2
-            </b>
+            </h1>
           </div>
         </div>
         <div
@@ -1228,12 +1258,14 @@ exports[`renders renders data correctly 1`] = `
           <div
             className="mb1"
           >
-            Release date: 
-            06/02/2016
+            <p>
+              Release date: 
+              06/02/2016
+            </p>
           </div>
         </div>
         <div
-          className=" center f1"
+          className="ph2 center f1"
           style={
             Object {
               "fontSize": "40px",
@@ -1348,7 +1380,7 @@ exports[`renders renders data correctly 1`] = `
         >
           details
         </button>
-      </div>
+      </article>
     </MovieListCard>
     <MovieListCard
       key="372058"
@@ -1358,8 +1390,8 @@ exports[`renders renders data correctly 1`] = `
       thumbnailPath="http://image.tmdb.org/t/p/w200/xq1Ugd62d23K2knRUx6xxuALTZB.jpg"
       title="9. Your Name."
     >
-      <div
-        className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+      <article
+        className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
       >
         <div
           className="dib center"
@@ -1385,9 +1417,11 @@ exports[`renders renders data correctly 1`] = `
               }
             }
           >
-            <b>
+            <h1
+              className="f5"
+            >
               9. Your Name.
-            </b>
+            </h1>
           </div>
         </div>
         <div
@@ -1396,12 +1430,14 @@ exports[`renders renders data correctly 1`] = `
           <div
             className="mb1"
           >
-            Release date: 
-            08/26/2016
+            <p>
+              Release date: 
+              08/26/2016
+            </p>
           </div>
         </div>
         <div
-          className=" center f1"
+          className="ph2 center f1"
           style={
             Object {
               "fontSize": "40px",
@@ -1516,7 +1552,7 @@ exports[`renders renders data correctly 1`] = `
         >
           details
         </button>
-      </div>
+      </article>
     </MovieListCard>
     <MovieListCard
       key="324786"
@@ -1526,8 +1562,8 @@ exports[`renders renders data correctly 1`] = `
       thumbnailPath="http://image.tmdb.org/t/p/w200/bndiUFfJxNd2fYx8XO610L9a07m.jpg"
       title="10. Hacksaw Ridge"
     >
-      <div
-        className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+      <article
+        className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
       >
         <div
           className="dib center"
@@ -1553,9 +1589,11 @@ exports[`renders renders data correctly 1`] = `
               }
             }
           >
-            <b>
+            <h1
+              className="f5"
+            >
               10. Hacksaw Ridge
-            </b>
+            </h1>
           </div>
         </div>
         <div
@@ -1564,12 +1602,14 @@ exports[`renders renders data correctly 1`] = `
           <div
             className="mb1"
           >
-            Release date: 
-            10/07/2016
+            <p>
+              Release date: 
+              10/07/2016
+            </p>
           </div>
         </div>
         <div
-          className=" center f1"
+          className="ph2 center f1"
           style={
             Object {
               "fontSize": "40px",
@@ -1684,7 +1724,7 @@ exports[`renders renders data correctly 1`] = `
         >
           details
         </button>
-      </div>
+      </article>
     </MovieListCard>
     <MovieListCard
       key="334543"
@@ -1694,8 +1734,8 @@ exports[`renders renders data correctly 1`] = `
       thumbnailPath="http://image.tmdb.org/t/p/w200/iBGRbLvg6kVc7wbS8wDdVHq6otm.jpg"
       title="11. Lion"
     >
-      <div
-        className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+      <article
+        className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
       >
         <div
           className="dib center"
@@ -1721,9 +1761,11 @@ exports[`renders renders data correctly 1`] = `
               }
             }
           >
-            <b>
+            <h1
+              className="f5"
+            >
               11. Lion
-            </b>
+            </h1>
           </div>
         </div>
         <div
@@ -1732,12 +1774,14 @@ exports[`renders renders data correctly 1`] = `
           <div
             className="mb1"
           >
-            Release date: 
-            11/24/2016
+            <p>
+              Release date: 
+              11/24/2016
+            </p>
           </div>
         </div>
         <div
-          className=" center f1"
+          className="ph2 center f1"
           style={
             Object {
               "fontSize": "40px",
@@ -1852,7 +1896,7 @@ exports[`renders renders data correctly 1`] = `
         >
           details
         </button>
-      </div>
+      </article>
     </MovieListCard>
     <MovieListCard
       key="348893"
@@ -1862,8 +1906,8 @@ exports[`renders renders data correctly 1`] = `
       thumbnailPath="http://image.tmdb.org/t/p/w200/mWiqc87iTs1qujxm2Q0NRzGvWSN.jpg"
       title="12. Boyka: Undisputed IV"
     >
-      <div
-        className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+      <article
+        className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
       >
         <div
           className="dib center"
@@ -1889,9 +1933,11 @@ exports[`renders renders data correctly 1`] = `
               }
             }
           >
-            <b>
+            <h1
+              className="f5"
+            >
               12. Boyka: Undisputed IV
-            </b>
+            </h1>
           </div>
         </div>
         <div
@@ -1900,12 +1946,14 @@ exports[`renders renders data correctly 1`] = `
           <div
             className="mb1"
           >
-            Release date: 
-            08/01/2016
+            <p>
+              Release date: 
+              08/01/2016
+            </p>
           </div>
         </div>
         <div
-          className=" center f1"
+          className="ph2 center f1"
           style={
             Object {
               "fontSize": "40px",
@@ -2020,7 +2068,7 @@ exports[`renders renders data correctly 1`] = `
         >
           details
         </button>
-      </div>
+      </article>
     </MovieListCard>
     <MovieListCard
       key="311324"
@@ -2030,8 +2078,8 @@ exports[`renders renders data correctly 1`] = `
       thumbnailPath="http://image.tmdb.org/t/p/w200/p70dq1YxabemdZDm5K6Q8G10wSn.jpg"
       title="13. The Great Wall"
     >
-      <div
-        className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+      <article
+        className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
       >
         <div
           className="dib center"
@@ -2057,9 +2105,11 @@ exports[`renders renders data correctly 1`] = `
               }
             }
           >
-            <b>
+            <h1
+              className="f5"
+            >
               13. The Great Wall
-            </b>
+            </h1>
           </div>
         </div>
         <div
@@ -2068,12 +2118,14 @@ exports[`renders renders data correctly 1`] = `
           <div
             className="mb1"
           >
-            Release date: 
-            12/16/2016
+            <p>
+              Release date: 
+              12/16/2016
+            </p>
           </div>
         </div>
         <div
-          className=" center f1"
+          className="ph2 center f1"
           style={
             Object {
               "fontSize": "40px",
@@ -2188,7 +2240,7 @@ exports[`renders renders data correctly 1`] = `
         >
           details
         </button>
-      </div>
+      </article>
     </MovieListCard>
     <MovieListCard
       key="278927"
@@ -2198,8 +2250,8 @@ exports[`renders renders data correctly 1`] = `
       thumbnailPath="http://image.tmdb.org/t/p/w200/vOipe2myi26UDwP978hsYOrnUWC.jpg"
       title="14. The Jungle Book"
     >
-      <div
-        className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+      <article
+        className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
       >
         <div
           className="dib center"
@@ -2225,9 +2277,11 @@ exports[`renders renders data correctly 1`] = `
               }
             }
           >
-            <b>
+            <h1
+              className="f5"
+            >
               14. The Jungle Book
-            </b>
+            </h1>
           </div>
         </div>
         <div
@@ -2236,12 +2290,14 @@ exports[`renders renders data correctly 1`] = `
           <div
             className="mb1"
           >
-            Release date: 
-            04/07/2016
+            <p>
+              Release date: 
+              04/07/2016
+            </p>
           </div>
         </div>
         <div
-          className=" center f1"
+          className="ph2 center f1"
           style={
             Object {
               "fontSize": "40px",
@@ -2356,7 +2412,7 @@ exports[`renders renders data correctly 1`] = `
         >
           details
         </button>
-      </div>
+      </article>
     </MovieListCard>
     <MovieListCard
       key="47933"
@@ -2366,8 +2422,8 @@ exports[`renders renders data correctly 1`] = `
       thumbnailPath="http://image.tmdb.org/t/p/w200/5CHJs479xWnm3zMDOl94VkKS7MZ.jpg"
       title="15. Independence Day: Resurgence"
     >
-      <div
-        className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+      <article
+        className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
       >
         <div
           className="dib center"
@@ -2393,9 +2449,11 @@ exports[`renders renders data correctly 1`] = `
               }
             }
           >
-            <b>
+            <h1
+              className="f5"
+            >
               15. Independence Day: Resurgence
-            </b>
+            </h1>
           </div>
         </div>
         <div
@@ -2404,12 +2462,14 @@ exports[`renders renders data correctly 1`] = `
           <div
             className="mb1"
           >
-            Release date: 
-            06/22/2016
+            <p>
+              Release date: 
+              06/22/2016
+            </p>
           </div>
         </div>
         <div
-          className=" center f1"
+          className="ph2 center f1"
           style={
             Object {
               "fontSize": "40px",
@@ -2524,7 +2584,7 @@ exports[`renders renders data correctly 1`] = `
         >
           details
         </button>
-      </div>
+      </article>
     </MovieListCard>
     <MovieListCard
       key="300671"
@@ -2534,8 +2594,8 @@ exports[`renders renders data correctly 1`] = `
       thumbnailPath="http://image.tmdb.org/t/p/w200/4gpW4MkRI0BB17GHOJzXq0WamDP.jpg"
       title="16. 13 Hours: The Secret Soldiers of Benghazi"
     >
-      <div
-        className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+      <article
+        className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
       >
         <div
           className="dib center"
@@ -2561,9 +2621,11 @@ exports[`renders renders data correctly 1`] = `
               }
             }
           >
-            <b>
+            <h1
+              className="f5"
+            >
               16. 13 Hours: The Secret Soldiers of Benghazi
-            </b>
+            </h1>
           </div>
         </div>
         <div
@@ -2572,12 +2634,14 @@ exports[`renders renders data correctly 1`] = `
           <div
             className="mb1"
           >
-            Release date: 
-            01/13/2016
+            <p>
+              Release date: 
+              01/13/2016
+            </p>
           </div>
         </div>
         <div
-          className=" center f1"
+          className="ph2 center f1"
           style={
             Object {
               "fontSize": "40px",
@@ -2692,7 +2756,7 @@ exports[`renders renders data correctly 1`] = `
         >
           details
         </button>
-      </div>
+      </article>
     </MovieListCard>
     <MovieListCard
       key="381284"
@@ -2702,8 +2766,8 @@ exports[`renders renders data correctly 1`] = `
       thumbnailPath="http://image.tmdb.org/t/p/w200/6cbIDZLfwUTmttXTmNi8Mp3Rnmg.jpg"
       title="17. Hidden Figures"
     >
-      <div
-        className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+      <article
+        className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
       >
         <div
           className="dib center"
@@ -2729,9 +2793,11 @@ exports[`renders renders data correctly 1`] = `
               }
             }
           >
-            <b>
+            <h1
+              className="f5"
+            >
               17. Hidden Figures
-            </b>
+            </h1>
           </div>
         </div>
         <div
@@ -2740,12 +2806,14 @@ exports[`renders renders data correctly 1`] = `
           <div
             className="mb1"
           >
-            Release date: 
-            12/10/2016
+            <p>
+              Release date: 
+              12/10/2016
+            </p>
           </div>
         </div>
         <div
-          className=" center f1"
+          className="ph2 center f1"
           style={
             Object {
               "fontSize": "40px",
@@ -2860,7 +2928,7 @@ exports[`renders renders data correctly 1`] = `
         >
           details
         </button>
-      </div>
+      </article>
     </MovieListCard>
     <MovieListCard
       key="411088"
@@ -2870,8 +2938,8 @@ exports[`renders renders data correctly 1`] = `
       thumbnailPath="http://image.tmdb.org/t/p/w200/fptnZJbLzKUHeNlYrAynbyoL5YJ.jpg"
       title="18. The Invisible Guest"
     >
-      <div
-        className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+      <article
+        className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
       >
         <div
           className="dib center"
@@ -2897,9 +2965,11 @@ exports[`renders renders data correctly 1`] = `
               }
             }
           >
-            <b>
+            <h1
+              className="f5"
+            >
               18. The Invisible Guest
-            </b>
+            </h1>
           </div>
         </div>
         <div
@@ -2908,12 +2978,14 @@ exports[`renders renders data correctly 1`] = `
           <div
             className="mb1"
           >
-            Release date: 
-            09/22/2016
+            <p>
+              Release date: 
+              09/22/2016
+            </p>
           </div>
         </div>
         <div
-          className=" center f1"
+          className="ph2 center f1"
           style={
             Object {
               "fontSize": "40px",
@@ -3028,7 +3100,7 @@ exports[`renders renders data correctly 1`] = `
         >
           details
         </button>
-      </div>
+      </article>
     </MovieListCard>
     <MovieListCard
       key="324668"
@@ -3038,8 +3110,8 @@ exports[`renders renders data correctly 1`] = `
       thumbnailPath="http://image.tmdb.org/t/p/w200/lFSSLTlFozwpaGlO31OoUeirBgQ.jpg"
       title="19. Jason Bourne"
     >
-      <div
-        className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+      <article
+        className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
       >
         <div
           className="dib center"
@@ -3065,9 +3137,11 @@ exports[`renders renders data correctly 1`] = `
               }
             }
           >
-            <b>
+            <h1
+              className="f5"
+            >
               19. Jason Bourne
-            </b>
+            </h1>
           </div>
         </div>
         <div
@@ -3076,12 +3150,14 @@ exports[`renders renders data correctly 1`] = `
           <div
             className="mb1"
           >
-            Release date: 
-            07/27/2016
+            <p>
+              Release date: 
+              07/27/2016
+            </p>
           </div>
         </div>
         <div
-          className=" center f1"
+          className="ph2 center f1"
           style={
             Object {
               "fontSize": "40px",
@@ -3196,7 +3272,7 @@ exports[`renders renders data correctly 1`] = `
         >
           details
         </button>
-      </div>
+      </article>
     </MovieListCard>
     <MovieListCard
       key="329865"
@@ -3206,8 +3282,8 @@ exports[`renders renders data correctly 1`] = `
       thumbnailPath="http://image.tmdb.org/t/p/w200/hLudzvGfpi6JlwUnsNhXwKKg4j.jpg"
       title="20. Arrival"
     >
-      <div
-        className="shadow-1 b--black-40 bg-white mr3 flex flex-column br3 mv3 ba bw1 dark-gray b--black"
+      <article
+        className="shadow-1 b--black-40 bg-white mr3 br3 mv3 ba bw1"
       >
         <div
           className="dib center"
@@ -3233,9 +3309,11 @@ exports[`renders renders data correctly 1`] = `
               }
             }
           >
-            <b>
+            <h1
+              className="f5"
+            >
               20. Arrival
-            </b>
+            </h1>
           </div>
         </div>
         <div
@@ -3244,12 +3322,14 @@ exports[`renders renders data correctly 1`] = `
           <div
             className="mb1"
           >
-            Release date: 
-            11/10/2016
+            <p>
+              Release date: 
+              11/10/2016
+            </p>
           </div>
         </div>
         <div
-          className=" center f1"
+          className="ph2 center f1"
           style={
             Object {
               "fontSize": "40px",
@@ -3364,7 +3444,7 @@ exports[`renders renders data correctly 1`] = `
         >
           details
         </button>
-      </div>
+      </article>
     </MovieListCard>
   </div>
 </MainPage>
